@@ -48,6 +48,35 @@ console.log(func);// This line doesn't call the func, it just print the function
 func();// This is function call and this will print hello world.
 console.log(typeof func);//--->object function
 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack for Primitive
+// Heap for Non-Primitive 
+
+//For Stack---Call by value
+let userName="Jayesh Sharma";
+let anotherUserName=userName;// copy of userName is stored in anotherUserName.
+anotherUserName="Deepanshu Sharma";// change happens in the copy , not in the original.
+console.log(userName);
+console.log(anotherUserName);
+
+//For heap---call by reference
+let obj1={
+    name:"jayesh",
+    email:"jay.sharma@gmail.com"
+}
+let anotherObj=obj1// reference of obj1 is given to anotherObj.
+anotherObj.email="deepanshu@gmail.com";// Change also happens in obj1.
+console.log(obj1);
+console.log(anotherObj);
+
+
+
+
+
+
+
+
 
 
 
