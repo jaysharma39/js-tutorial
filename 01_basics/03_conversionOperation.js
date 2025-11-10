@@ -27,6 +27,29 @@ console.log(stringSomeNumber);
 //someNumber=33--->"33"
 //someNumber=true/false/null/undefined--->true/false/null/undefined
 
+//operators
+let str1="Jayesh";
+let str2=" Sharma";
+let str3=str1+str2;
+console.log(str3);
+
+//console.log("1"+2+2);// 122
+//console.log(1+2+"2");// 32
+//console.log(1+"2"+3);//123
+
+//console.log(+true);// 1
+//console.log(+false);// 0
+
+let gameCounter=100;
+//console.log(gameCounter++);// 100
+//console.log(++gameCounter);// 102
+
+
+
+
+
+
+
 
 
 
