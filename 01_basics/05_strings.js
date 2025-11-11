@@ -6,7 +6,7 @@ const repoCount=30;
 console.log(`My name is ${name} and my repo count is ${repoCount}`);
 
 const gameName=new String("jayesh2004");//--->gameName is a string object
-console.log(gameName);
+console.log(gameName);//--->[String: 'jayesh2004']
 //console.log(typeof gameName);--->object
 
 // console.log(name.length);--->6    length is not a function that's why not used length()
